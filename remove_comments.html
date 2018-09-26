@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>TeX comment remover</title>
+<script src="remove_comments.js"></script>
+</head>
+<body>
+<h1>TeX comment remover</h1>
+<p>Select a TeX file and this page will automatically generate a version
+with comments removed.</p>
+<input type="file" accept=".tex" onChange="readFile(event)" />
+<h2>Known issues</h2>
+<p>The <code>verbatim</code> package and similar packages are not
+handled correctly yet.</p>
+</body>
+</html>
